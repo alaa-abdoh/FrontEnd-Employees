@@ -30,15 +30,18 @@
 .membersSection{
   padding: 50px 0;
 }
+.content{
+  margin-left: 80px;
+  max-width: 700px;
+}
 .membersSection .container .searchContent{
   position: relative;
-  margin-left: 80px;
 }
 h2{
   margin-bottom: 40px;
 }
 input{
-  width:400px ;
+  width:100% ;
   padding:20px 10px 20px 50px;
   border: none;
   border-bottom:1px solid #eee ;
@@ -53,4 +56,29 @@ input::placeholder{
   position: absolute;
   left: 5px;
   bottom: 15px;
+}
+.members{
+  margin-top: 20px;
+}
+.individualMember{
+  border: 1px solid #cbcdd4;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.individualMember .name{
+  display: flex;
+  align-items: center;
+}
+.individualMember .name p{
+  margin-left: 10px;
+}
+.circle{
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #cbcdd4;
 }
